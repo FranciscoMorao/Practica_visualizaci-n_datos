@@ -66,6 +66,10 @@ data/
 
 graficas/
 
+visualizacion.py
+
+index.html
+
 README.md
 
 requirements.txt
@@ -91,7 +95,7 @@ La página web integra visualizaciones estáticas e interactivas desarrolladas e
 
 La visualización puede consultarse públicamente en:
 
-https://franciscomorao.github.io/Practica_visualizacion_datos/
+
 
 La página principal se encuentra en el archivo:
 
