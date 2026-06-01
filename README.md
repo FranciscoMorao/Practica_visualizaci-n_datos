@@ -1,4 +1,4 @@
-# Practica_visualización_datos
+# Practica_visualizacion_datos
 ## Descripción
 
 Proyecto de visualización de datos desarrollado para la asignatura de Fundamentos de Modelado Orientado a Datos.
