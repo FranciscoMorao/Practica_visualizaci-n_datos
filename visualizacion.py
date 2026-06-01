@@ -37,8 +37,8 @@ import plotly.express as px
 df = pd.read_csv("data/Breast Cancer METABRIC.csv")
 
 # Carpeta de salida
-os.makedirs("graficas_metabric", exist_ok=True)
-os.makedirs("tablas_metabric", exist_ok=True)
+os.makedirs("graficas", exist_ok=True)
+os.makedirs("tablas", exist_ok=True)
 
 # Estilo general
 sns.set_theme(style="whitegrid")
