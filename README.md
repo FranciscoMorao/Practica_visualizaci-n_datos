@@ -63,7 +63,7 @@ Scikit-Learn
 
 Datos/
 
-graficas/
+Gráficas/
 
 src/
 
