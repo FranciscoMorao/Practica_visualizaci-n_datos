@@ -61,9 +61,9 @@ Scikit-Learn
 
 ## Estructura del proyecto
 
-Datos/
+data/
 
-Gráficas/
+graficas/
 
 src/
 
