@@ -34,7 +34,7 @@ import plotly.express as px
 # 1. Cargar datos
 # =========================
 
-df = pd.read_csv("Breast Cancer METABRIC.csv")
+df = pd.read_csv("data/Breast Cancer METABRIC.csv")
 
 # Carpeta de salida
 os.makedirs("graficas_metabric", exist_ok=True)
