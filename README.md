@@ -83,6 +83,17 @@ pip install -r requirements.txt
 
 python src/visualizacion.py
 
+## Visualización web
+
+La visualización puede consultarse públicamente en:
+
+https://franciscomorao.github.io/Practica_visualizacion_datos/
+
+La página principal se encuentra en el archivo:
+
+```text
+index.html
+
 ## Licencia
 
 MIT License.
