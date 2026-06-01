@@ -99,9 +99,7 @@ https://franciscomorao.github.io/Practica_visualizacion_datos/
 
 La página principal se encuentra en el archivo:
 
-```text
 index.html
-```
 
 
 ## Licencia
