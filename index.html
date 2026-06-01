@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Visualización METABRIC</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin:auto;
+    padding:20px;
+}
+
+img{
+    width:100%;
+    margin-bottom:40px;
+    border:1px solid #ddd;
+}
+
+iframe{
+    width:100%;
+    height:800px;
+    border:none;
+    margin-bottom:40px;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>Visualización del dataset METABRIC</h1>
+
+<p>
+Análisis visual de supervivencia, recaída y perfiles de pacientes
+con cáncer de mama utilizando el dataset METABRIC.
+</p>
+
+<h2>Caracterización de la población</h2>
+
+<img src="graficas/01_distribucion_edad.png">
+<img src="graficas/02_subtipos_pam50.png">
+<img src="graficas/03_estadio_tumoral.png">
+
+<h2>Supervivencia</h2>
+
+<img src="graficas/04_supervivencia_por_estadio.png">
+<img src="graficas/17_kaplan_meier_estadio.png">
+
+<h2>Recaída</h2>
+
+<img src="graficas/06_recaida_por_estadio.png">
+<img src="graficas/07_heatmap_pam50_recaida.png">
+
+<h2>Perfiles de pacientes</h2>
+
+<img src="graficas/20_recaida_por_cluster.png">
+<img src="graficas/21_supervivencia_por_cluster.png">
+
+<h2>Visualización interactiva: carga mutacional</h2>
+
+<iframe src="graficas/08_mutation_count_supervivencia.html"></iframe>
+
+<h2>Visualización interactiva: PCA y clustering</h2>
+
+<iframe src="graficas/19_pca_clusters_completo.html"></iframe>
+
+</body>
+</html>
