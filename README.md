@@ -11,53 +11,54 @@ Se utiliza el dataset METABRIC (Molecular Taxonomy of Breast Cancer Internationa
 
 Las variables estudiadas incluyen:
 
-Edad al diagnóstico
+- Edad al diagnóstico
 
-Estadio tumoral
+- Estadio tumoral
 
-Tamaño tumoral
+- Tamaño tumoral
 
-Estado de los receptores ER, PR y HER2
+- Estado de los receptores ER, PR y HER2
 
-Subtipo molecular PAM50
+- Subtipo molecular PAM50
 
-Mutation Count
+- Mutation Count
 
-Nottingham Prognostic Index
+- Nottingham Prognostic Index
 
-Supervivencia global
+- Supervivencia global
 
-Estado de recaída
+- Estado de recaída
 
 ## Preguntas analizadas
-¿Cuál es el perfil general de las pacientes?
+1. ¿Cuál es el perfil general de las pacientes?
 
-¿Influye el estadio tumoral en la supervivencia?
+2. ¿Influye el estadio tumoral en la supervivencia?
 
-¿Influye el estadio tumoral en la recaída?
+3. ¿Influye el estadio tumoral en la recaída?
 
-¿Existen diferencias entre subtipos moleculares?
+4. ¿Existen diferencias entre subtipos moleculares?
 
-¿Aporta información pronóstica la información molecular?
+5. ¿Aporta información pronóstica la información molecular?
 
-¿Pueden identificarse perfiles diferenciados de pacientes?
+6. ¿Pueden identificarse perfiles diferenciados de pacientes?
 
 ## Herramientas utilizadas
-Python
+- Python
 
-Pandas
+- Pandas
 
-NumPy
+- NumPy
 
-Matplotlib
+- Matplotlib
 
-Seaborn
+- Seaborn
 
-Plotly
+- Plotly
 
-Lifelines
+- Lifelines
 
-Scikit-Learn
+- Scikit-Learn
+
 
 ## Estructura del proyecto
 
@@ -65,13 +66,12 @@ data/
 
 graficas/
 
-src/
-
 README.md
 
 requirements.txt
 
 LICENSE
+
 
 ## Ejecución
 
@@ -79,11 +79,15 @@ Instalar dependencias:
 
 pip install -r requirements.txt
 
+
 ## Ejecutar:
 
-python src/visualizacion.py
+python visualizacion.py
+
 
 ## Visualización web
+
+La página web integra visualizaciones estáticas e interactivas desarrolladas en Python mediante Matplotlib, Seaborn y Plotly, permitiendo la exploración de los principales hallazgos obtenidos a partir del dataset METABRIC.
 
 La visualización puede consultarse públicamente en:
 
@@ -94,6 +98,7 @@ La página principal se encuentra en el archivo:
 ```text
 index.html
 ```
+
 
 ## Licencia
 
