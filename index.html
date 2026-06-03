@@ -3,29 +3,6 @@
 <head>
 <meta charset="UTF-8">
 <title>Visualización METABRIC</title>
-
-<style>
-body{
-    font-family: Arial, sans-serif;
-    max-width: 1200px;
-    margin:auto;
-    padding:20px;
-}
-
-img{
-    width:100%;
-    margin-bottom:40px;
-    border:1px solid #ddd;
-}
-
-iframe{
-    width:100%;
-    height:800px;
-    border:none;
-    margin-bottom:40px;
-}
-</style>
-
 </head>
 
 <body>
@@ -33,38 +10,65 @@ iframe{
 <h1>Visualización del dataset METABRIC</h1>
 
 <p>
-Análisis visual de supervivencia, recaída y perfiles de pacientes
-con cáncer de mama utilizando el dataset METABRIC.
+Este proyecto analiza la relación entre variables clínicas y moleculares del cáncer de mama
+y su asociación con la supervivencia, la recaída y la identificación de perfiles de pacientes,
+mediante visualizaciones desarrolladas con Python.
 </p>
 
-<h2>Caracterización de la población</h2>
+<h2>Preguntas analizadas</h2>
 
-<img src="graficas/01_distribucion_edad.png">
-<img src="graficas/02_subtipos_pam50.png">
-<img src="graficas/03_estadio_tumoral.png">
+<ul>
+  <li>¿Cuál es el perfil general de las pacientes?</li>
+  <li>¿Influye el estadio tumoral en la supervivencia?</li>
+  <li>¿Influye el estadio tumoral en la recaída?</li>
+  <li>¿Existen diferencias entre subtipos moleculares?</li>
+  <li>¿Aporta información pronóstica la información molecular?</li>
+  <li>¿Pueden identificarse perfiles diferenciados de pacientes?</li>
+</ul>
 
-<h2>Supervivencia</h2>
+<h2>Visualizaciones</h2>
 
-<img src="graficas/04_supervivencia_por_estadio.png">
-<img src="graficas/17_kaplan_meier_estadio.png">
+<ul>
+  <li><a href="graficas/01_distribucion_edad.png">01. Distribución de la edad al diagnóstico</a></li>
+  <li><a href="graficas/02_subtipos_pam50.png">02. Distribución de subtipos moleculares PAM50</a></li>
+  <li><a href="graficas/03_estadio_tumoral.png">03. Distribución por estadio tumoral</a></li>
+  <li><a href="graficas/04_supervivencia_por_estadio.png">04. Supervivencia global según estadio tumoral</a></li>
+  <li><a href="graficas/06_recaida_por_estadio.png">05. Recaída según estadio tumoral</a></li>
+  <li><a href="graficas/07_heatmap_pam50_recaida.png">06. Heatmap de recaída por subtipo molecular</a></li>
+  <li><a href="graficas/17_kaplan_meier_estadio.png">07. Curvas Kaplan-Meier por estadio tumoral</a></li>
+  <li><a href="graficas/08_mutation_count_supervivencia.html">08. Carga mutacional y supervivencia</a></li>
+  <li><a href="graficas/19_pca_clusters_completo.html">09. Clustering PCA + K-Means</a></li>
+  <li><a href="graficas/20_recaida_por_cluster.png">10. Recaída por cluster</a></li>
+  <li><a href="graficas/21_supervivencia_por_cluster.png">11. Supervivencia por cluster</a></li>
+</ul>
 
-<h2>Recaída</h2>
+<h2>Principales resultados</h2>
 
-<img src="graficas/06_recaida_por_estadio.png">
-<img src="graficas/07_heatmap_pam50_recaida.png">
+<ul>
+  <li>La mayoría de pacientes fueron diagnosticadas entre los 50 y 75 años.</li>
+  <li>El subtipo molecular más frecuente es Luminal A.</li>
+  <li>La mayor parte de los casos se concentran en estadio II.</li>
+  <li>El estadio tumoral se asocia con diferencias claras en supervivencia y recaída.</li>
+  <li>Los subtipos moleculares muestran comportamientos diferenciados.</li>
+  <li>El análisis PCA y K-Means permite identificar perfiles de pacientes.</li>
+</ul>
 
-<h2>Perfiles de pacientes</h2>
+<h2>Tecnologías utilizadas</h2>
 
-<img src="graficas/20_recaida_por_cluster.png">
-<img src="graficas/21_supervivencia_por_cluster.png">
+<ul>
+  <li>Python</li>
+  <li>Pandas</li>
+  <li>Matplotlib</li>
+  <li>Seaborn</li>
+  <li>Plotly</li>
+  <li>Lifelines</li>
+  <li>Scikit-Learn</li>
+  <li>GitHub Pages</li>
+</ul>
 
-<h2>Visualización interactiva: carga mutacional</h2>
-
-<iframe src="graficas/08_mutation_count_supervivencia.html"></iframe>
-
-<h2>Visualización interactiva: PCA y clustering</h2>
-
-<iframe src="graficas/19_pca_clusters_completo.html"></iframe>
+<p>
+Proyecto académico de Visualización de Datos · Francisco Mora
+</p>
 
 </body>
 </html>
